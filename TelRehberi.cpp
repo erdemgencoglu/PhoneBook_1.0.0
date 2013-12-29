@@ -11,19 +11,19 @@ void Sil(char ad[60]);     //
 void Arama();              //
 int  islemDevam();
 void aramayapisi(char x[60], int determ);
-int telefon(char x[12]);		//
+int telefon(char x[12]);		
 
 int gonder;			//tel numarası sorgulama fonksiyonu için tanımladım
 char cevap, isim[30];//cevap değişkeni kullanıcadan işlem devamını almak icin kullanılmıştır.isim değişkeni sil ve guncelleiçin kullanıldı 
 struct DataBase //Kişi bilgilerinin tutulduğu DataBase adındaki struct yapısı
 {
-	char Ad[60];			//
-	char SoyAd[60];			//
-	char CepTel[12];		// DataBase imizin (yani Rehberin) Uyeleri
-	char EvTel[12];			//
-	char IsTel[12];			//
-	char Dogum_tarihi[20];	//
-	char e_posta[BUFSIZ];	//
+	char Ad[60];     //
+	char SoyAd[60];  //
+	char CepTel[12]; // DataBase imizin (yani Rehberin) Uyeleri
+	char EvTel[12];  //
+	char IsTel[12];  //
+	char Dogum_tarihi[20];//
+	char e_posta[BUFSIZ];//
 }data;
 int main()
 {
