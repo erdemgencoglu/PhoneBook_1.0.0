@@ -1,15 +1,15 @@
 #include <stdio.h>   //
-#include <conio.h>	 //Kütüphanemiz
+#include <conio.h>   //Kütüphanemiz
 #include <windows.h> //
 #include <stdlib.h>  //
 
 FILE *dosyaptr;
-void KisiEkle();				// 
-void Goruntule();				//
+void KisiEkle();			// 
+void Goruntule();			//
 void Guncelle(char ad[60]);		// Fonksiyon tanımlamarı
 void Sil(char ad[60]);			//
-void Arama();					//
-int	 islemDevam();
+void Arama();				//
+int  islemDevam();
 void aramayapisi(char x[60], int determ);
 int telefon(char x[12]);		//
 
@@ -134,7 +134,7 @@ void KisiEkle() // Kisi ekleme menüsü
 		system("cls");	//Ekranı temizler
 		printf("Yeni Kayit\n");
 		printf("----------\n\n");					/*Kisi bilgilerinin kayıt edildiği bölüm*/
-		printf("\tAd: ");							/*Kisinin Adı soruldu*/
+		printf("\tAd: ");						/*Kisinin Adı soruldu*/
 		scanf("%s", &data.Ad);
 		fprintf(dosyaptr, "%s ", data.Ad);
 		printf("\tSoyad: ");						/*Kisinin Soyad bilgisi alındı*/
