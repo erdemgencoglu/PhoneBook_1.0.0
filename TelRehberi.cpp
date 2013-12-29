@@ -4,11 +4,11 @@
 #include <stdlib.h>  //
 
 FILE *dosyaptr;
-void KisiEkle();			// 
-void Goruntule();			//
-void Guncelle(char ad[60]);		// Fonksiyon tanımlamarı
-void Sil(char ad[60]);			//
-void Arama();				//
+void KisiEkle();           // 
+void Goruntule();          //
+void Guncelle(char ad[60]);// Fonksiyon tanımlamarı
+void Sil(char ad[60]);     //
+void Arama();              //
 int  islemDevam();
 void aramayapisi(char x[60], int determ);
 int telefon(char x[12]);		//
